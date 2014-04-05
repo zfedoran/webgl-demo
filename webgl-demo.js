@@ -284,8 +284,8 @@ WebGLDemo.prototype = {
             position        : this.getRandomVector(-10, 10),
             scale           : this.getRandomVector(1, 3),
             rotation        : this.getRandomVector(-4, 4),
-            angularVelocity : this.getRandomVector(-0.3, 0.3),
-            velocity        : this.getRandomVector(-1, 1),
+            angularVelocity : this.getRandomVector(-0.1, 0.1),
+            velocity        : this.getRandomVector(-0.3, 0.3),
             color           : this.getRandomVector(0, 1),
             matrix          : new Matrix4()
         };
